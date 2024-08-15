@@ -64,3 +64,32 @@ header nav ul {
     width: 10%;
 }
 
+.inbenta-bot__launcher{
+    font-family: "BMWTypeNext Pro Regular";
+    align-items: center;
+    background-color: rgb(17, 115, 183);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    bottom: 0px;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    font-weight: 300;
+    height: 52px;
+    justify-content: center;
+    left: 1400px;
+    line-height: 22px;
+    min-width: 64px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    position: fixed;
+    right: 30px;
+    text-rendering: optimizespeed;
+}
