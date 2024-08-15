@@ -17,10 +17,11 @@ header {
     display: flex;
     justify-content: space-between; 
     padding: 0px;
-    background-image: url(./img/banner-principal.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 1%, rgba(0, 0, 0, 0) 13%), url(./img/banner-principal.webp); /*sombreado header*/
     background-size: cover;
     height: 100vh;
     color: #fff;
+
     
 }
 
