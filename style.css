@@ -16,7 +16,7 @@
 header {
     display: flex;
     justify-content: space-between; 
-    padding: 10px;
+    padding: 0px;
     background-image: url(./img/banner-principal.webp);
     background-size: cover;
     height: 100vh;
@@ -47,7 +47,7 @@ header nav ul {
 
 #logo {
     margin-top: 16px;
-    padding-left: 86px;
+    padding-left: 96px;
 }
 
 #logo img {
@@ -56,10 +56,11 @@ header nav ul {
 }
 
 #menu-icons ul {
-    padding-left: 525px;
+    padding-left: 545px;
     padding-right: 102px;
     gap: 28px;
     border-bottom: 1px solid #fff;
-    padding-bottom: 26px;
+    padding-bottom: 30px;
     width: 10%;
 }
+
