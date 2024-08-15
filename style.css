@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "BMWTypeNext Pro Regular";
+    src: url("https://db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.eot");
+    src: url("https://db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.svg#BMWTypeNext Pro Regular")format("svg");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,22 +15,41 @@
 
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center; 
+    justify-content: space-between; 
     padding: 10px;
+    background-image: url(./img/banner-principal.webp);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    
 }
 
-ul {
+#header-itens {
+    display: flex;
+}
+
+header ul {
+    font-family: "BMWTypeNext Pro Regular";
     list-style: none;
     padding: 0; 
     margin: 0; 
     display: flex; 
-    gap: 15px; 
+    margin-top: 30px;
+    font-size: 15px;
 }
 
-body {
-    background-image: url(./img/banner-principal.webp), url(./img/banner2.webp);
-    background-position: center top, center bottom;
-    background-size: cover, cover;
-    background-repeat: no-repeat, no-repeat;
+header nav ul {
+    padding-left: 36px;
+    gap: 36px;
+}
+
+#logo {
+    margin-top: 16px;
+    padding-left: 86px;
+}
+
+#menu-icons ul {
+    padding-left: 525px;
+    padding-right: 102px;
+    gap: 28px;
 }
