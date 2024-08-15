@@ -41,6 +41,8 @@ header ul {
 header nav ul {
     padding-left: 36px;
     gap: 36px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 34px;
 }
 
 #logo {
@@ -48,8 +50,15 @@ header nav ul {
     padding-left: 86px;
 }
 
+#logo img {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+}
+
 #menu-icons ul {
     padding-left: 525px;
     padding-right: 102px;
     gap: 28px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 26px;
 }
