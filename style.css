@@ -23,8 +23,28 @@ header {
     background-size: cover;
     height: 100vh;
     color: #fff;
+}
 
-    
+.header-btn{
+    position: relative;
+    text-decoration: none;
+    font-family: "BMWTypeNext Pro Regular";
+    color: white;
+    cursor: pointer;
+}
+
+.header-btn:after{
+    content: "";
+    position: absolute;
+    background-color: #1C69D4;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -33px;
+}
+
+.header-btn:hover:after{
+    width: 100%;
 }
 
 #header-itens {
