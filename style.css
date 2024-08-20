@@ -18,7 +18,7 @@ header {
     display: flex;
     justify-content: space-evenly; 
     padding: 0px;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 1%, rgba(0, 0, 0, 0) 13%), url(./img/banner-principal.webp); sombreado header
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 1%, rgba(0, 0, 0, 0) 13%), url(./img/banner-principal.webp); 
     background: #ccc;
     background-size: cover;
     height: 100vh;
@@ -78,3 +78,141 @@ header nav ul li {
     width: 10px;
 }
 
+footer {
+    background-color: #f7f7f7;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.footer-logo img {
+    max-width: 250px;
+    margin-right: 20px;
+}
+
+.footer-warning img{
+    max-width: 375px;
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: #f2f2f2;
+    position: relative;
+}
+
+.footer-section {
+    max-width: 300px;
+    position: relative;
+    font-weight: bold;
+}
+
+.footer-section h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #555;
+    font-weight: normal;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+}
+
+.footer-social a img {
+    width: 24px;
+    margin-right: 10px;
+}
+.footer-social {
+    margin-top: 100px;
+}
+.footer-copyright {
+    font-size: 18px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer-links ul li {
+    margin-left: 20px;
+}
+
+.footer-links ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .footer-top,
+    .footer-middle,
+    .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-top {
+        padding: 10px;
+    }
+
+    .footer-warning {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .footer-middle {
+        padding: 10px 0;
+    }
+
+    .footer-bottom {
+        padding: 10px 0;
+    }
+
+    .footer-links ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links ul li {
+        margin: 5px 0;
+    }
+}
