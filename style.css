@@ -18,7 +18,7 @@ header {
     display: flex;
     justify-content: space-evenly; 
     padding: 0px;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 1%, rgba(0, 0, 0, 0) 13%), url(./img/banner-principal.webp); 
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 1%, rgba(0, 0, 0, 0) 13%), url(./img/banner-principal.webp); sombreamento header
     background: #ccc;
     background-size: cover;
     height: 100vh;
@@ -70,12 +70,80 @@ header nav ul li {
 }
 
 #menu-icons ul {
-    padding-left: 450px;
+    padding-left: 1010px;
     padding-right: 160px;
     gap: 28px;
     border-bottom: 1px solid #fff;
     padding-bottom: 30px;
     width: 10px;
+}
+
+#cars-icons-txt {
+    text-align: center;
+    font-size: 20px;
+    line-height: 46px;
+    letter-spacing: normal;
+    font-family: Arial, light;
+    margin-bottom: 20px;
+}
+
+.cars-icons-h3 {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.cars-icons-h2 {
+    font-size: 45px;
+    font-weight: 300;
+}
+
+#cars-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#cars-icons img {
+    width: 100%; /* Para imagens responsivas */
+    max-width: 550px; /* Define a largura máxima das imagens */
+    height: auto;
+}
+
+#cars-icons-p {
+    display: flex;
+    justify-content: center;
+    gap: 38vh;
+    margin-bottom: 45px;
+    text-align: center;
+    font-family: Arial, light;
+    font-size: 25px;
+}
+
+#cars-btn {
+    display: flex;
+    justify-content: center;
+    gap: 54vh;
+}
+
+.cars-button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 13px 23px;
+    border: 1px solid #222222;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: #fff;
+    color: #222222;
+}
+
+    .cars-button:hover {
+    border-color: #000000;
+    background: #f7f7f7;
 }
 
 footer {
