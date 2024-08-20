@@ -54,6 +54,21 @@ header nav ul li {
     padding-bottom: 34px;
 }
 
+.header-msg{
+    font-family: "BMWTypeNext Pro Regular";
+    position: absolute;
+    left: 85px;
+    bottom: 790px;
+}
+
+.header-msg h4{
+    font-weight: 100;
+}
+
+.header-msg span{
+    font-weight: 900;
+}
+
 #logo {
     margin-top: 16px;
     padding-left: 25px;
