@@ -96,6 +96,37 @@ header nav ul li {
     font-weight: 900;
 }
 
+.img-msg{
+    font-family: "BMWTypeNext Pro Regular";
+    font-size: 43px;
+    position: absolute;
+    left: 130px;
+    bottom: 550px;
+}
+
+.img-btn{
+    position: absolute;
+    left: 132px;
+    bottom: 500px;
+    display: flex;
+    gap: 25px;
+}
+
+.btn1{
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+    border-color: white;
+    border-radius: 3px;
+    width: 190px;
+    height: 45px;
+    font-weight: 700;
+}
+
+.btn1:hover{
+    border: 2px solid white;
+}
+
 #logo {
     margin-top: 16px;
     padding-left: 25px;
