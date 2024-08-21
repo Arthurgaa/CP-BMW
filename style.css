@@ -320,7 +320,7 @@ footer {
 .footer-section h4 {
     font-size: 14px;
     margin-bottom: 10px;
-    color: #555;
+    color: #4d4d4d;
     font-weight: normal;
 }
 
@@ -339,9 +339,29 @@ footer {
 }
 
 .footer-section ul li a:hover {
-    text-decoration: underline;
+    color: black;
 }
 
+.seta-car{
+    position: absolute;
+    width: 27px;
+    height: 100px;
+    bottom: 143px;
+}
+
+.seta-ssf{
+    position: absolute;
+    width: 27px;
+    height: 100px;
+    bottom: 116px; 
+}
+
+.seta-pdc{
+    position: absolute;
+    width: 27px;
+    height: 100px;
+    bottom: 65px; 
+}
 
 .footer-bottom {
     display: flex;
