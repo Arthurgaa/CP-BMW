@@ -17,10 +17,17 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-evenly; 
-    padding: 0px;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 1%, rgba(0, 0, 0, 0) 13%), url(./img/banner-principal.webp); sombreamento header
-    background: #ccc;
+    padding: 0;
+    background-image: 
+        linear-gradient(
+            to bottom, 
+            rgba(0, 0, 0, 0.4) 1%, 
+            rgba(0, 0, 0, 0) 13%
+        ), 
+        url('./img/banner-principal.webp');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
     color: #fff;
 }
@@ -77,8 +84,8 @@ header nav ul li {
 .header-msg{
     font-family: "BMWTypeNext Pro Regular";
     position: absolute;
-    left: 85px;
-    bottom: 790px;
+    left: 120px;
+    bottom: 650px;
 }
 
 .header-msg h4{
@@ -105,7 +112,7 @@ header nav ul li {
 }
 
 #menu-icons ul {
-    padding-left: 1010px;
+    padding-left: 600px;
     padding-right: 160px;
     gap: 28px;
     border-bottom: 1px solid #fff;
@@ -118,7 +125,7 @@ header nav ul li {
     font-size: 20px;
     line-height: 46px;
     letter-spacing: normal;
-    font-family: Arial, light;
+    font-family: "BMWTypeNext Pro Regular";
     margin-bottom: 20px;
 }
 
@@ -128,38 +135,40 @@ header nav ul li {
 }
 
 .cars-icons-h2 {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 300;
 }
 
 #cars-icons {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     width: 100%;
     margin-bottom: 20px;
 }
 
 #cars-icons img {
     width: 100%; /* Para imagens responsivas */
-    max-width: 550px; /* Define a largura máxima das imagens */
+    max-width: 400px; /* Define a largura máxima das imagens */
     height: auto;
 }
 
 #cars-icons-p {
     display: flex;
     justify-content: center;
-    gap: 38vh;
+    gap: 30vh;
     margin-bottom: 45px;
     text-align: center;
-    font-family: Arial, light;
-    font-size: 25px;
+    font-family: "BMWTypeNext Pro Regular";
+    font-size: 23px;
+    padding-right: 25px;
 }
 
 #cars-btn {
     display: flex;
     justify-content: center;
-    gap: 54vh;
+    gap: 300px;
+    padding-left: 60px;
 }
 
 .cars-button {
@@ -174,16 +183,41 @@ header nav ul li {
     transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
     background: #fff;
     color: #222222;
+    margin-block-end: 36px;
 }
 
-    .cars-button:hover {
+
+.cars-button:hover {
     border-color: #000000;
     background: #f7f7f7;
 }
 
+#segunda-img {
+    background: url(./img/banner3.png);
+    height: 100vh;
+    background-size: cover;
+    margin-block-end: 50px;
+}
+
+#terceira-img {
+    background: url(./img/banner2.webp);
+    height: 100vh;
+    background-size: cover;
+    margin-block-end: 50px;
+}
+
+#quarta-img {
+    background: url(./img/banner4.png);
+    height: 100vh;
+    background-size: cover;
+    margin-block-end: 20px;
+}
+
+
+/*FOOTER*/
+
 footer {
     background-color: #f7f7f7;
-    padding: 20px 0;
     font-family: Arial, sans-serif;
     color: #333;
 }
@@ -192,10 +226,12 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding-block-end: 80px;
+    padding-left: 96px;
     background-color: #ffffff;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
+    
 }
 
 .footer-logo img {
@@ -265,12 +301,14 @@ footer {
 }
 .footer-copyright {
     font-size: 18px;
+    padding-left: 96px;
 }
 
 .footer-links ul {
     list-style-type: none;
     padding: 0;
     display: flex;
+    padding-right: 250px;
 }
 
 .footer-links ul li {
