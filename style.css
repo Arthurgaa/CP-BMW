@@ -142,13 +142,18 @@ header nav ul li {
     padding-bottom: 15px;
 }
 
-#menu-icons ul {
+
+#menu-icons ul{
     padding-left: 600px;
     padding-right: 160px;
     gap: 28px;
     border-bottom: 1px solid #fff;
     padding-bottom: 30px;
     width: 10px;
+}
+
+#menu-icons li{
+    cursor: pointer;
 }
 
 #cars-icons-txt {
@@ -229,6 +234,13 @@ header nav ul li {
     height: 100vh;
     background-size: cover;
     margin-block-end: 50px;
+}
+
+#itens2 {
+    font-family: "BMWTypeNext Pro Regular";
+    color: white;
+    padding-top: 300px;
+    padding-left: 108px;
 }
 
 #terceira-img {
