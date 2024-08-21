@@ -155,6 +155,21 @@ header nav ul li {
 .icon{
     width: 20px;
     cursor: pointer;
+    position: relative;
+}
+
+.icon::after{
+    content: "";
+    position: absolute;
+    background-color: #1C69D4;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -30px;
+}
+
+.icon:hover::after{
+    width: 100%;
 }
 
 #cars-icons-txt {
