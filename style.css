@@ -210,17 +210,18 @@ header nav ul li {
     line-height: 20px;
     font-weight: 600;
     padding: 13px 23px;
-    border: 1px solid #222222;
+    border-radius: 4px;
+    border-color: gray;
+    border: 1px solid gray;
     transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
     background: #fff;
-    color: #222222;
+    color: black;
     margin-block-end: 36px;
 }
 
 
 .cars-button:hover {
-    border-color: #000000;
-    background: #f7f7f7;
+    border: 1px solid black;
 }
 
 #segunda-img {
