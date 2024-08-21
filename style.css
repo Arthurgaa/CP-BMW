@@ -113,6 +113,7 @@ header nav ul li {
 }
 
 .btn1{
+    cursor: pointer;
     border: 1px solid white;
     color: white;
     background: transparent;
@@ -142,7 +143,6 @@ header nav ul li {
     padding-bottom: 15px;
 }
 
-
 #menu-icons ul{
     padding-left: 600px;
     padding-right: 160px;
@@ -152,7 +152,8 @@ header nav ul li {
     width: 10px;
 }
 
-#menu-icons li{
+.icon{
+    width: 20px;
     cursor: pointer;
 }
 
