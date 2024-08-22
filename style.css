@@ -16,7 +16,6 @@
 header {
     width: 100%;
     display: flex;
-    justify-content: space-evenly; 
     padding: 0;
     background-image: 
         linear-gradient(
@@ -47,7 +46,7 @@ header {
     height: 3px;
     width: 0;
     left: 0;
-    bottom: -33px;
+    bottom: -28px;
 }
 
 .header-btn:hover:after{
@@ -70,22 +69,22 @@ header ul {
 
 header nav ul li a{
     width: 100%;
-    padding-left:8px;
+    padding-left:12px;
 }
 
 header nav ul li {
-    
+    padding-top: 5px;
     padding-left:15px;
     gap: -16px;
     border-bottom: 1px solid #fff;
-    padding-bottom: 34px;
+    padding-bottom: 29px;
 }
 
 .header-msg{
     font-family: "BMWTypeNext Pro Regular";
     position: absolute;
-    left: 120px;
-    bottom: 650px;
+    left: 100px;
+    bottom: 655px;
 }
 
 .header-msg h4{
@@ -130,13 +129,10 @@ header nav ul li {
 
 #logo {
     margin-top: 16px;
-    padding-left: 25px;
+    padding-left: 96px;
 }
 
-.linha{
-    width: 80%;
-    border: 1px solid yellow;
-}
+
 
 #logo img {
     border-bottom: 1px solid #fff;
@@ -144,7 +140,7 @@ header nav ul li {
 }
 
 #menu-icons ul{
-    padding-left: 600px;
+    padding-left: 575px;
     padding-right: 160px;
     gap: 28px;
     border-bottom: 1px solid #fff;
@@ -162,7 +158,7 @@ header nav ul li {
     content: "";
     position: absolute;
     background-color: #1C69D4;
-    height: 3px;
+    height: 4px;
     width: 0;
     left: 0;
     bottom: -30px;
@@ -252,11 +248,20 @@ header nav ul li {
     margin-block-end: 50px;
 }
 
-#itens2 {
+.img-itens {
     font-family: "BMWTypeNext Pro Regular";
     color: white;
-    padding-top: 300px;
+    padding-top: 165px;
     padding-left: 108px;
+}
+
+.img-itens h1 {
+    font-size: 43px;
+    margin-block-end: 12px;
+}
+
+.img-itens p {
+    margin-block-end: 30px;
 }
 
 #terceira-img {
@@ -284,7 +289,7 @@ footer {
 
 .footer-top {
     display: flex;
-    justify-content: space-between;
+    gap: 790px;
     align-items: center;
     padding-block-end: 80px;
     padding-left: 96px;
@@ -305,32 +310,32 @@ footer {
 
 .footer-middle {
     display: flex;
-    justify-content: space-around;
-    padding: 20px 0;
+    padding-left: 96px;
     background-color: #f2f2f2;
     position: relative;
+    margin-block-end: 37px;
 }
 
 .footer-section {
-    max-width: 300px;
+    margin-top: 80px;
     position: relative;
     font-weight: bold;
+    padding-right: 228px;
 }
 
 .footer-section h4 {
     font-size: 14px;
-    margin-bottom: 10px;
     color: #4d4d4d;
     font-weight: normal;
+    margin-block-end: 18px;
 }
 
 .footer-section ul {
     list-style-type: none;
-    padding: 0;
 }
 
 .footer-section ul li {
-    margin-bottom: 8px;
+    margin-bottom: 18px;
 }
 
 .footer-section ul li a {
@@ -346,21 +351,21 @@ footer {
     position: absolute;
     width: 27px;
     height: 100px;
-    bottom: 143px;
+    bottom: 164px;
 }
 
 .seta-ssf{
     position: absolute;
     width: 27px;
     height: 100px;
-    bottom: 116px; 
+    bottom: 128px; 
 }
 
 .seta-pdc{
     position: absolute;
     width: 27px;
     height: 100px;
-    bottom: 65px; 
+    bottom: 56px; 
 }
 
 .footer-bottom {
