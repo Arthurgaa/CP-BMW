@@ -368,6 +368,13 @@ footer {
     bottom: 56px; 
 }
 
+.seta-mds{
+    position: absolute;
+    width: 27px;
+    height: 20px;
+    right: 395px;
+}
+
 .footer-bottom {
     display: flex;
     justify-content: space-between;
@@ -401,10 +408,16 @@ footer {
 }
 
 .footer-links ul li a {
-    color: #333;
+    color: black;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 13px;
+    font-family: "BMWTypeNext Pro Regular";
     font-weight: bold;
+    margin-left: 10px;
+}
+
+.footer-links ul li a:hover{
+    color: #1C69D4;
 }
 
 @media (max-width: 768px) {
