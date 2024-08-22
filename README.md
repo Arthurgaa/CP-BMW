@@ -3,7 +3,7 @@
 ## Descrição do Projeto:
 Este projeto é uma recriação não funcional do site da BMW (bmw.com.br) usando HTML e CSS.
 O objetivo foi replicar o design do site original como parte do trabalho da disciplina de Front-End Design. 
-O site foi realizado no começo de Agosto 2024.
+O site foi realizado no começo de Agosto 2024 e não está responsivo, dependendo do dispositivo que for aberto podem haver mudanças.
 
 ## Estrutura de Arquivos:
 - **index.html**: O arquivo HTML principal que contém a estrutura do site.
