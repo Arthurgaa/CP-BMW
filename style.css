@@ -442,3 +442,25 @@ footer {
         margin: 5px 0;
     }
 }
+
+/* BOTÃO POSSO TE AJUDAR? */
+
+.btn-pta{
+    background-color: #1173b7;
+    box-shadow: none;
+    height: auto;
+    padding: 20px;
+    bottom: -6px;
+    position: fixed;
+    right: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.pta-msg{
+    font-family: "BMWTypeNext Pro Regular";
+    color: white;
+    font-size: 15px;
+    position: relative;
+    bottom: 2px;
+}
